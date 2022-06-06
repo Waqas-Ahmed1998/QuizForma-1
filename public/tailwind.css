@@ -3,15 +3,36 @@
 @tailwind utilities;
 
 @layer components {
+
+
+  .option2-circle-design{
+    @apply rounded-full flex justify-center items-center text-center w-[22px] h-[22px] md:w-[27px] md:h-[27px] bg-[#F6F6F6] text-lg  font-medium text-[#005C7D]
+  }
+
   .overlay {
     @apply after:absolute   after:top-0 after:left-0 after:w-full after:h-full after:bg-black/20
   }
+
+  .option-design {
+    @apply w-full rounded-[60px] border border-[#E5E5E5]  transition-colors ease-out hover:border-[#414EC5] bg-white md:min-h-[43px] cursor-pointer  flex items-center pl-2 pr-2 space-x-3 md:my-2 py-2 md:py-0 relative
+  }
+
 
 }
 body {
 
   /* font-family: 'Domin', serif; */
   -webkit-tap-highlight-color: transparent;
+}
+
+.option-selected-second{
+  background-color: #414EC5;
+  color:white;
+}
+
+.option-selected{
+  background: rgba(65, 78, 197, 0.05);
+
 }
 
 .montserat {
