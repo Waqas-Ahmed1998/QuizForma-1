@@ -4,7 +4,9 @@
 
 @layer components {
 
-
+  .btn-choice {
+    @apply w-fit px-6 py-2 md:px-0 md:py-0 border-[#414EC5] hover:bg-[#414EC5] md:w-[160px] border  md:h-[60px] rounded-lg transition-colors ease-in-out bg-white text-black  hover:text-white text-base md:text-xl mx-2
+  }
   .option2-circle-design{
     @apply rounded-full flex justify-center items-center text-center w-[22px] h-[22px] md:w-[27px] md:h-[27px] bg-[#F6F6F6] text-lg  font-medium text-[#005C7D]
   }
